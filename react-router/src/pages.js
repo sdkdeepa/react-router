@@ -18,17 +18,17 @@ export function About() {
 	return (
 		<div>
 			<h1> [About]</h1>
-            <Outlet />
+			<Outlet />
 		</div>
 	)
 }
 
-export function Services(){
-    return(
-        <div>
-            <h2> Our Services</h2>
-        </div>
-    )
+export function Services() {
+	return (
+		<div>
+			<h2> Our Services</h2>
+		</div>
+	)
 }
 
 export function CompanyHistory() {
@@ -62,12 +62,12 @@ export function Contact() {
 		</div>
 	)
 }
-export function Whoops404(){
-    let location = useLocation()
-    // console.log(location)
-    return(
-        <div>
-            <h1>Resource not found at {location.pathname} !</h1>
-        </div>
-    )
+export function Whoops404() {
+	let location = useLocation()
+	// console.log(location)
+	return (
+		<div>
+			<h1>Resource not found at {location.pathname} !</h1>
+		</div>
+	)
 }
